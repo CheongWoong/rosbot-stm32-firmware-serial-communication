@@ -11,6 +11,11 @@ ______  _____  _____  _             _           __
 ```                                                    
 **Firmware version:** `0.16.0`
 
+## Enable Serial Communication
+Two versions of firmwares (in .hex format) are available in firmwares directory.
+- firmware_default.hex: the default firmware that communicates through RPi connector pins.
+- firmware_serial.hex: a modified version that communicates through Serial (USB-B/USB-micro FTDI pins).
+
 ## Prerequisites
 You need to install following tools:
 * [Visual Studio Code IDE](https://code.visualstudio.com/)
